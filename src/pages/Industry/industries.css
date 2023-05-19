@@ -1,0 +1,222 @@
+.industry-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 1rem;
+  }
+  
+  .indu-card {
+    position: relative;
+    overflow: hidden;
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    transform-style: preserve-3d;
+  }
+  
+  .indu-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .indu-card:before {
+    content: "";
+    position: absolute;
+    top: -20%;
+    left: -20%;
+    width: 140%;
+    height: 140%;
+    background: rgba(255, 255, 255, 0.05);
+    transform: rotate(45deg);
+    z-index: -1;
+  }
+
+  
+  
+  .indu-card:after {
+    content: "";
+    position: absolute;
+    top: -120%;
+    left: -120%;
+    width: 240%;
+    height: 240%;
+    background: rgba(255, 255, 255, 0.05);
+    transform: rotate(45deg);
+    z-index: -2;
+  }
+  
+  .indu-card:hover:before {
+    animation: shimmer 1s infinite;
+  }
+  
+  .card:hover:after {
+    animation: shimmer 2s infinite;
+  }
+  
+  .indu-card-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .indu-card-content h2 {
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  
+  .indu-card-description {
+    font-size: 0.9rem;
+    color: #fff;
+    line-height: 1.5;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+  
+  .card-description-clicked {
+    max-height: 100%;
+    transition: max-height 0.3s ease-in-out;
+  }
+  
+  .card-description span {
+    display: none;
+    margin-left: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .card:hover .card-description span {
+    display: inline-block;
+  }
+  
+  .indu-card-image {
+    position: relative;
+    z-index: 1;
+    margin-top: 1rem;
+  }
+  
+  .indu-card-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-1 {
+      /* width: 300px;  */
+    height: 350px;
+    background-color: #0084ff;
+  }
+  
+  .card-2 {
+     /* width: 400px;  */
+    height: 350px;
+    background-color: #ff007f;
+  }
+  
+  .card-3 {
+     /* width: 400px;  */
+    height: 350px;
+    background-color: #00f260;
+  }
+  
+  .card-4 {
+     width: 500px; 
+    height: 350px;
+    background-color: #182848;
+  }
+  
+  .card-5 {
+    /* width: 300px; */
+    height: 350px;
+    background: linear-gradient(135deg, #40e0d0 0%, #ff8c00 100%);
+  }
+  
+  .card-6 {
+    /* width: 300px; */
+    height: 350px;
+    background-color: #29323c;
+  }
+  
+  .card-clicked {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    }
+    
+    .card-clicked .card-content {
+    max-width: 80%;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    }
+    
+    .card-clicked .card-content h2 {
+    margin-bottom: 2rem;
+    color: #333;
+    }
+    
+    .card-clicked .card-content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    color: #333;
+    }
+    
+    .card-clicked .card-content button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background-color: #0084ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    }
+    
+    .card-clicked .card-content button:hover {
+    background-color: #0056b3;
+    }
+    
+    @media only screen and (max-width: 768px) {
+    .card-container {
+    grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .card-1,
+    .card-2,
+    .card-3,
+    .card-4,
+    .card-6 {
+    width: 100%;
+    height: 300px;
+    }
+    
+    .card-5 {
+    width: 100%;
+    height: 500px;
+    }
+    }
+    
+    @keyframes shimmer {
+    0% {
+    transform: translateX(-100%);
+    }
+    
+    100% {
+    transform: translateX(100%);
+    }
+    }
+    
+  
+

@@ -1,0 +1,31 @@
+.our-partner-datas{
+    width:100%;
+    background-color: white;
+    height:40vh;
+    margin-top: 50px;
+  text-align: center;
+}
+
+.our-part-h2{
+    color:black;
+    padding-top: -0.2rem ;
+    font-size: 36px;
+    padding-left: 2rem;
+    font-weight: 600;
+}
+
+.our_part_image_wrap{
+    margin: 0px 50px;
+    top:20px;
+    height:100px;
+    width:120px;
+    margin-top:2rem;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.our-img-sty{
+    height:100px;
+    width:120px;
+   
+}
