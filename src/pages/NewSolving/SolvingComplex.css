@@ -1,56 +1,160 @@
-/* styles.css */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
 
-.services-page {
-    text-align: center;
-  }
+}
+
+.solvg_body{
+  display: flex;
+    justify-content: center;  
+  align-items: center; 
+  min-height: 100vh;
+  background: #ebf0fc;
   
-  .services-heading {
-    font-size: 24px;
-    font-weight: bold;
-  }
+}
+
+.solvg_container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1100px;
   
-  .services-paragraph {
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
+}
+
+.solvg_container .solvg_card {
+  position: relative;
+  height: 410px;
+  width: 400px;
+  margin: 20px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 123, 255, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.serv_container .serv_card:hover {
+  box-shadow: 0 0 40px rgba(0, 123, 255, 0.2);
+}
+
+
+.serv_tophead{
+  font-weight: 600;
+  font-size: 46px;
+  color:#030f27;
+  margin-top: 55px;
+}
+
+
+.solv_p{
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+  color:#8c89a2;
+  width: 70%;
+}
+
+
+.solvg_container .solvg_card .solvg_imgBox,
+.solvg_container .solvg_card .solvg_contentBox{
+ 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   
-  .service-cards {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
+}
+
+.solvg_container .solvg_card .solvg_imgBox img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* width: 100%; */
+  /* height: 100%; */
+  width:200px;
+  height:220px;
+  margin-left: 6rem;
+  margin-top: 60px;
   
-  .service-card {
-    width: 250px;
-    height: 270px;
-    background-color: #d77a7a;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
+
+
   
-  .service-icon {
-    width: 50px;
-    height: 50px;
-  }
-  
-  .service-title {
-    margin-top: 10px;
-    font-size: 18px;
-  }
-  
-  .service-card:hover {
-    background-color: lightgray;
-  }
-  
-  @media (max-width: 768px) {
-    .service-card {
-      flex-basis: 45%;
-    }
-  }
-  
+}
+
+.solvg_container .solvg_card .solvg_contentBox::before{
+  content: '';
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:rgb(37, 38, 48);
+  transform: scaleX(0);
+  transition: transform 0.5s ease-in-out;
+  transform-origin: right;
+   transition-delay: 0s;
+
+}
+
+.solvg_container .solvg_card:hover .solvg_contentBox::before{
+  transform: scaleX(1);
+  transition: transform 0.5s ease-in-out;
+  transform-origin: left;
+  transition-delay: 0s;
+}
+
+.solvg_container .solvg_card .solvg_contentBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.solvg_container .solvg_card .solvg_contentBox .solvgc_content{
+  position: relative;
+  padding: 50px;
+  z-index: 1;
+  transition: 0.5s;
+   transform: translateX(-400px); 
+   transition-delay: 0s;
+}
+
+.solvg_container .solvg_card:hover .solvg_contentBox .solvgc_content
+{
+  transform: translateX(0px);
+  transition-delay: 0.3s;
+}
+
+.solvg_container .solvg_card .solvg_contentBox .solvgc_content .solvgc_h3{
+
+font-size: 22px;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: 600;
+color: #fff;
+
+}
+
+.solvg_container .solvg_card .solvg_contentBox .solvgc_content .solvgc_p{
+  font-size: 1rem;
+  line-height: 1.4rem;
+  font-size: 400;
+  color: #fff;
+}
+
+
+
+.solvgice_h1{
+  position: absolute;
+  margin-top: 18rem;
+  margin-left: 6rem;
+  color: #030f22;
+  font-weight: 600;
+  font-size: 26px;
+}
+
+

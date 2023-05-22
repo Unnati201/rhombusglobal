@@ -1,0 +1,111 @@
+.industry-content{
+    width: 100%;
+   
+    display: flex;
+     /* background-color: rgb(194, 224, 251); */
+   background-color: #f8faff;
+    padding:30px;
+    
+}
+
+.industry-wrapp{
+   
+    display: grid;
+    grid-template-columns: 35rem 35rem;
+    grid-template-rows: 17rem 17rem 17rem;
+    padding-left: 8rem;
+    margin-top: 5rem;
+    
+    
+    
+}
+
+
+
+.industry-first-1 {
+    background-color:#007bff;
+
+   
+   
+}
+.industry-first-1:hover{
+     background-color: rgb(63, 63, 152);
+
+    
+}
+
+.industry-first-2{
+ background-color: #2781e0;
+
+}
+
+.industry-first-2:hover{
+ background-color: #195391;
+
+}
+
+.industry-first-3{
+ background-color: #475ef7;
+}
+
+.industry-first-3:hover{
+    background-color:#2679d2 ;
+    opacity: 0.7;
+}
+
+.industry-first-4{
+ background-color: #230ec4;
+}
+
+.industry-first-4:hover{
+    background-color: #1606fd;
+    opacity: 0.7;
+}
+
+.industry-first-5{
+    background-color: rgb(4, 35, 136);
+}
+
+.industry-first-5:hover{
+    background-color: rgb(87, 56, 199);
+    opacity: 0.7;
+}
+
+.industry-first-6{
+    background-color: rgb(76, 199, 199);
+}
+
+.industry-first-6:hover{
+    background-color: rgb(73, 251, 251);
+    opacity: 0.8;
+}
+
+.industry-h2-design{
+    position: absolute;
+ /* bottom:-60rem; */
+  font-size: 45px;
+
+  font-weight: 500;
+  color: #222;
+  font-family: 'Mulish',sans-serif;
+  padding-left: 22rem;
+}
+
+.industry-font1{
+    color:#fff;
+    padding-top: 4rem ;
+    font-size: 22px;
+    padding-left: 20px;
+    font-weight: 400;
+    font-family: 'Mulish',sans-serif;
+    
+    
+}
+
+.indust-img{
+    height: 265px;
+    width:280px;
+    margin-top: -135px;
+    margin-left: 270px;
+    
+}

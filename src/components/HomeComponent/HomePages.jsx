@@ -5,21 +5,39 @@ import Solving from '../../pages/Services/Solving'
 import Ourpartner from '../../pages/OurPartner/OurPartner'
 import Services from '../../pages/Services/Services'
 import Success from '../../pages/SuccessStory/Success'
-import SolvingComplex from '../../pages/NewSolving/SolvingComplex'
+import SolvingComplex from '../../pages/NewSolving/SolvingComplex';
+
+import Newdata from '../../pages/NewServices/Newdata'
+import ServicesCard from '../../pages/NewServices/ServicesCard'
+import Industry from '../../pages/IndustryExp/Industry'
+import SuccessStory from '../../pages/SuccessStory/SuccessStory'
+import Aboutus from '../../pages/AboutUs/Aboutus'
+import NewsBlog from '../News&BLog/NewsBlog'
+import Contact from '../Contactdata/Contact'
+
 
 
 const HomePages = () => {
   return (
     <div>
         <HomeSlides/>
+       
       <SolvingComplex/>
-        {/* <Solving/> */}
+
+         {/* <Solving/>  */}
         <Ourpartner/>
-        <Services/>
-          <Industries/>
+        <Newdata/>
+        <ServicesCard/>
+        {/* <Services/> */}
+        <Industry/>
+       <SuccessStory/>
+       <NewsBlog/>
+        <Aboutus/>
+        <Contact/>
+          {/* <Industries/> */}
           {/* <Success/>   */}
     </div>
   )
 }
 
-export default HomePages
+export default HomePages;
