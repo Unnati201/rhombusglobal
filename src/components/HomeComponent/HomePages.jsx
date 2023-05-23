@@ -26,7 +26,8 @@ const HomePages = () => {
        
       
       {/* <NewSolComplex/> */}
-      <SolvingComplex/> 
+      {/* <SolvingComplex/>  */}
+      <NewSolComplex/>
       <Newdata/>
         <ServicesCard/>
          {/* <Solving/>  */}

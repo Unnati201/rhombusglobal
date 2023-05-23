@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "./SolvingComplex.css";
+import "./newsolving.css";
 
 const NewSolComplex = () => {
   const [activeCard, setActiveCard] = useState(null);
