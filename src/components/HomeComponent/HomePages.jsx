@@ -16,6 +16,7 @@ import NewsBlog from '../News&BLog/NewsBlog'
 import Contact from '../Contactdata/Contact'
 import NewSolComplex from '../../pages/NewSolving/NewSolComplex'
 import Footer from '../../pages/NewFooter/Footer'
+import SolvingCard from '../../pages/SolvTransition/SolvingCard'
 
 
 
@@ -23,11 +24,11 @@ const HomePages = () => {
   return (
     <div>
         <HomeSlides/>
-       
+       {/* <SolvingCard/> */}
       
       {/* <NewSolComplex/> */}
-      {/* <SolvingComplex/>  */}
-      <NewSolComplex/>
+       <SolvingComplex/>  
+      {/* <NewSolComplex/> */}
       <Newdata/>
         <ServicesCard/>
          {/* <Solving/>  */}
@@ -38,8 +39,9 @@ const HomePages = () => {
        <SuccessStory/>
        <NewsBlog/>
         <Aboutus/>
+          <Contact/> 
         <Footer/>
-        {/* <Contact/> */}
+       
         
           {/* <Industries/> */}
           {/* <Success/>   */}

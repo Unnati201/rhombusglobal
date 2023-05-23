@@ -9,7 +9,7 @@ import { motion } from 'framer-motion';
 const Aboutus = () => {
   
   return (
-    <motion.section
+   <motion.section
       initial={{ opacity: 0, y: '100%' }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: '100%' }}

@@ -99,7 +99,7 @@
 .serv_container .serv_card:hover .serv_contentBox .servc_content
 {
     transform: translateX(0px);
-    transition-delay: 0.3s;
+    transition-delay: 0.2s; 
 }
 
 .serv_container .serv_card .serv_contentBox .servc_content .servc_h3{

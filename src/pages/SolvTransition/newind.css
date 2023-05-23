@@ -1,0 +1,194 @@
+/* 
+
+.indu_body{
+    display: flex; 
+    justify-content: center;
+    background: whitesmoke;
+    height: 100vh;
+    align-items: center;
+}
+
+.indu_container{
+    display:flex;
+    
+    
+}
+.indu-card{
+    height: 500px; 
+   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    margin:50px;
+    box-shadow: 5px 5px20px black;
+    overflow: hidden;
+}
+
+.indus-img{
+  height:50%;
+  width: 380px;
+  border-radius: 25px;
+  transition: .5s;
+}
+
+.indu_intro{
+    height: 80px;
+    width:380px;
+    padding: 7px;
+    box-sizing: border-box;
+    bottom: 240px;
+    position: absolute;
+    background: rgb(27,27,27,.5);
+    transition: .5s;
+    color: white;
+}
+
+h1{
+    margin: 10px;
+    font-size: 34px;
+}
+
+p{
+    font-size: 20px;
+    margin: 20px;
+    opacity: 0;
+}
+
+span{
+    font-weight: bold;
+}
+
+.indu-card:hover{
+    cursor: pointer;
+}
+
+.indu-card:hover .indu_intro{
+    height: 280px;
+    bottom: 240px;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+}
+
+.indu-card:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+
+.indu-card:hover .indus-img{
+    transform: scale(1.1) rotate(-3deg);
+}
+
+*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.indu_body {
+    /* display: flex; */
+    justify-content: center;
+    background: whitesmoke;
+    height: 100vh;
+    align-items: center;
+}
+
+.indu_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    gap: 20px;
+    padding: 50px;
+}
+
+.indu-card {
+    height: 320px;
+    width:300px;
+    display: grid;
+    grid-template-rows: 50% auto;
+    
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+
+.indus-img {
+    height: 320px;
+    width: 300px;
+    /* border-radius: 25px; */
+    /* transition: 0.5s; */
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+
+
+
+.indu_intro {
+    height: 80px;
+    width: 430px;
+    padding: 8px;
+    box-sizing: border-box;
+    bottom: -5rem;
+    position: relative;
+    background: rgb(27, 27, 27, 0.5);
+    transition: 0.5s;
+    color: white;
+}
+
+.learn-more-btn{
+    font-size: 17px;
+    color: aqua;
+   margin :7px 10px 0px 17px;
+
+
+}
+
+.ind_arrow{
+    /* padding: .5rem; */
+    background: aqua;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    float: right;
+    margin-right: 16rem;
+}
+
+
+
+.indu-h1 {
+    margin: 10px;
+    font-size: 34px;
+}
+
+.indu_p {
+    font-size: 20px;
+    margin: 20px;
+    opacity: 0;
+    word-break: break-all;
+}
+
+span {
+    font-weight: bold;
+}
+
+.indu-card:hover {
+    cursor: pointer;
+}
+
+.indu-card:hover .indu_intro {
+    /* height: 100%; */
+    height: 320px;
+    bottom: 160px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.indu-card:hover p {
+    opacity: 1;
+    visibility: visible;
+}
+
+.indu-card:hover .indus-img {
+    /* transform: scale(1.1) rotate(-3deg); */
+    transform: scale(1.2);
+
+    
+}
+
+
+
+
