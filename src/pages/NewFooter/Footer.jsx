@@ -8,7 +8,7 @@ const Footer = () => {
    
     <footer className="bg-[#EEEEEE] text-black">
       <div className="md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#ffffff19] py-7">
-       <img className= "h-17 w-20 mx-auto" src="asserts/logo.png" alt="rgs-tech"></img>
+       <img className= "h-17 w-20 mx-auto" src="asserts/rgslogonew.png" alt="rgs-tech"></img>
      
       </div>
 

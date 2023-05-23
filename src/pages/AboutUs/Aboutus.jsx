@@ -22,10 +22,9 @@ const Aboutus = () => {
       >
         {/* text & img wrapper */}
         <div className='flex flex-col lg:flex-row h-full items-center justify-center gap-x-24 text-center lg:text-left lg:pt-22 mx-20 '>
-          {/* image */}
+         
           <div className=' flex-1 max-h-55 lg:max-h-max order-4 lg:order-none overflow-hidden absolute right-0 mt-20 '>
-            {/* <img src="asserts/aboutspage.png" alt='' /> */}
-
+          
             <div className="relative h-auto bg-[#030f27] " >
       <img
         src="asserts/aboutus.jpg"

@@ -5,7 +5,7 @@ import {BsArrowRightShort} from "react-icons/bs"
 const NewsBlog = () => {
   return (
     <div className='blog_body'>
-      <h1 className='newblog_h1'>Top Heading Blog &amp; News</h1>
+      <h1 className='newblog_h1'> Blog &amp; News</h1>
       <div className="blog-container">
         <div className="blog-card">
           <div className='new-imgs'>
