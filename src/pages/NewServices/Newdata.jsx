@@ -9,7 +9,7 @@ const Newdata = () => {
       <NewService
         imageUrl='asserts/transform.jpg'
         title='Our Services'
-        description='Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut, facere error consectetur omnis amet eligendi mollitia animi! Suscipit recusandae neque itaque? Totam, iste quis.'
+        description='Complete portfolio of services to  empower our customers for the future'
       />
     </div>
   );

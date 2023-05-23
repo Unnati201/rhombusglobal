@@ -24,7 +24,17 @@ const Aboutus = () => {
         <div className='flex flex-col lg:flex-row h-full items-center justify-center gap-x-24 text-center lg:text-left lg:pt-22 mx-20 '>
           {/* image */}
           <div className=' flex-1 max-h-55 lg:max-h-max order-4 lg:order-none overflow-hidden absolute right-0 mt-20 '>
-            <img src="asserts/aboutspage.png" alt='' />
+            {/* <img src="asserts/aboutspage.png" alt='' /> */}
+
+            <div className="relative h-auto bg-[#030f27] " >
+      <img
+        src="asserts/aboutus.jpg"
+        alt=""
+        className="w-full h-96"
+      />
+      <div className="absolute top-0 left-0 w-1/2 h-full" ></div>
+    </div>
+
           </div>
           {/* text */}
           <motion.div
@@ -34,7 +44,7 @@ const Aboutus = () => {
             
             className='flex-1 pt-36 pb-14 lg:pt-0 lg:w-auto z-10 flex flex-col justify-center items-center lg:items-start'
           >
-            <h1 className='text-2xl font-bold mx-auto '>___________About Us____________</h1>
+            <h1 className='text-2xl font-bold mx-auto '>About Us</h1>
             <p className='mx-auto'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, ipsa.</p><br/><br/><br/>
 
             <h1 className='text-2xl font-bold mb-6  mx-w-xs'>Comprehensive Data and  Digital Solution <br/>for Business</h1>

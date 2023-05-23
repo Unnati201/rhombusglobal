@@ -1,7 +1,7 @@
 .our-partner-datas {
     width: 100%;
     background-color: white;
-    height: 43vh;
+    height: 50vh;
     margin-top: 50px;
     text-align: center;
    
@@ -21,15 +21,15 @@
   .our_part_image_wrap {
     margin: 0px 50px;
     top: 20px;
-    height: 100px; /* Adjust the height as needed */
-    width: 120px; /* Adjust the width as needed */
+    height: 140px; 
+    width: 180px; 
     margin-top: 4rem;
     overflow-y: hidden;
     overflow-x: hidden;
   }
   
   .our-img-sty {
-    height: 100%; /* Set the height to 100% to fill the container */
-    width: 100%; /* Set the width to 100% to fill the container */
+    height: 100%; 
+    width: 100%; 
   }
   

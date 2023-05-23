@@ -3,25 +3,25 @@ import './SuccessStorys.css'; // this is a  CSS import file
 
 const testimonialsData = [
   {
-    name: "TrailHive",
-    description: "Integer consectetur lectus at eleifend finibus In nec odio sem. Fusce in nunc at est ullamcorper euismod.",
-    image: "asserts/success.png"
+    name: "Big Data Platform for a Travel Company ",
+    description: " Our scalable architecture enabled a significant increase in revenue and profitability. With a real-time unified view of the customer, we gained valuable insights and leveraged intelligent reporting and analytics for informed decision-making.",
+    image: "asserts/big-data.png"
   },
   {
-    name: "Cloud Security",
-    description: "Integer consectetur lectus at eleifend finibus In nec odio sem. Fusce in nunc at est ullamcorper euismod.",
-    image: "asserts/cloud.png"
+    name: "Digital Marketplace for a Services Company",
+    description: "Our full automated wealth management process provided a seamless experience for both B2B and B2C markets. With our omni-channel solution across web and mobile, we achieved faster time to market and expanded our reach to customers, resulting in increased efficiency and satisfaction.",
+    image: "asserts/finance.jpg"
   },
   {
-    name: "Cargo Logistics",
-    description: "Integer consectetur lectus at eleifend finibus In nec odio sem. Fusce in nunc at est ullamcorper euismod.",
-    image: "asserts/logisticsuccess.png"
+    name: "Cloud Platform for a MultiBrand Car Rental License Association",
+    description: "Integer consectetur lectus at eleifend finibus In nec odio sem. Fusce in nunc at est ullamcorper euismod. Our cloud platform enabled the MultiBrand Car Rental License Association to seamlessly coordinate reservations",
+    image: "asserts/cloud_plat.jpeg"
   },
-  {
+/*  {
     name: "Car Manufacuring",
     description: "Integer consectetur lectus at eleifend finibus In nec odio sem. Fusce in nunc at est ullamcorper euismod.",
     image: "asserts/car.png"
-  }
+  } */
 ];
 
 const SuccessStory = () => {
@@ -39,7 +39,7 @@ const SuccessStory = () => {
 
   return (
     <div className="testimonials-container"><br/>
-      <h2>_______Success Story________</h2><br/>
+      <h2 className='success_h1'>Success Stories</h2><br/>
       <p>Hear from our satisfied client and discover how we help them achieve success</p><br/>
       
       <div className="testimonials-carousel">
@@ -52,7 +52,9 @@ const SuccessStory = () => {
             <img src={testimonial.image} alt={testimonial.name} />
             <h3>{testimonial.name}</h3>
             <p>{testimonial.description}</p>
+           
             <button>See Success Story</button>
+           
           </div>
         ))}
       </div>

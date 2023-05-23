@@ -171,7 +171,7 @@ const Header = () => {
                   <img className="h-7 w-7  " src="asserts/search.png" alt="" />
                 </Link> 
                 
-                <h className="h-12 w-0.6  bg-white text-white">|</h>
+                {/* <h className="h-12 w-0.6  bg-white text-white">|</h> */}
                 
         
                  {/* <Link 

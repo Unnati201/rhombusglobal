@@ -1,7 +1,7 @@
 .new_data_service{
     margin: 0;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .new_services_imgs{
@@ -27,7 +27,7 @@
   font-family:'Mulish',sans-serif;
   font-weight: 600;
   margin-left: 32rem;
-  font-size: 56px;
+  font-size: 58px;
   color: #ffffff;
  margin-top: -24rem;
   width: 50%;
@@ -36,11 +36,11 @@
 
 .new_serv_p{
     position: absolute;
-    font-size: 20px;
+    font-size: 23px;
   font-family: 'Mulish',sans-serif;
   font-weight: 500;
   color: #ffffff;
-  margin-left: 17rem;
+  margin-left: 20rem;
   margin-top: -18rem;
   width: 60%;
 }

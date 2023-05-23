@@ -14,6 +14,8 @@ import SuccessStory from '../../pages/SuccessStory/SuccessStory'
 import Aboutus from '../../pages/AboutUs/Aboutus'
 import NewsBlog from '../News&BLog/NewsBlog'
 import Contact from '../Contactdata/Contact'
+import NewSolComplex from '../../pages/NewSolving/NewSolComplex'
+import Footer from '../../pages/NewFooter/Footer'
 
 
 
@@ -22,18 +24,22 @@ const HomePages = () => {
     <div>
         <HomeSlides/>
        
-      <SolvingComplex/>
-
+      
+      {/* <NewSolComplex/> */}
+      <SolvingComplex/> 
+      <Newdata/>
+        <ServicesCard/>
          {/* <Solving/>  */}
         <Ourpartner/>
-        <Newdata/>
-        <ServicesCard/>
+        
         {/* <Services/> */}
         <Industry/>
        <SuccessStory/>
        <NewsBlog/>
         <Aboutus/>
-        <Contact/>
+        <Footer/>
+        {/* <Contact/> */}
+        
           {/* <Industries/> */}
           {/* <Success/>   */}
     </div>
