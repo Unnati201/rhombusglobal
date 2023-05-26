@@ -13,3 +13,31 @@
     background: linear-gradient(90deg,rgba(3,15,39,.7) 0,rgba(3,15,39,0));
     z-index: 1;
 }
+
+
+.about-data-container{
+width:100%;
+
+background-color: #ebf0fc;
+}
+
+.aboutus_imgs{
+    height: 390px;
+    width:600px;
+   
+   
+   
+}
+
+h1{
+    font-size: 32px;
+    font-weight: 500;
+    margin-left: 100px;
+}
+
+.h1_aboutsdt{
+    margin-left: 550px;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: 'Ubuntu';
+}

@@ -17,6 +17,8 @@ import Contact from '../Contactdata/Contact'
 import NewSolComplex from '../../pages/NewSolving/NewSolComplex'
 import Footer from '../../pages/NewFooter/Footer'
 import SolvingCard from '../../pages/SolvTransition/SolvingCard'
+import Solvinggradient from '../../pages/Solvingrgs/Solvinggradient'
+import AboutSec from '../../pages/NewAboutUs.jsx/AboutSec'
 
 
 
@@ -27,7 +29,8 @@ const HomePages = () => {
        {/* <SolvingCard/> */}
       
       {/* <NewSolComplex/> */}
-       <SolvingComplex/>  
+      <Solvinggradient/>
+       {/* <SolvingComplex/>   */}
       {/* <NewSolComplex/> */}
       <Newdata/>
         <ServicesCard/>
@@ -38,7 +41,8 @@ const HomePages = () => {
         <Industry/>
        <SuccessStory/>
        <NewsBlog/>
-        <Aboutus/>
+{/* <AboutSec/> */}
+         <Aboutus/> 
           <Contact/> 
         <Footer/>
        

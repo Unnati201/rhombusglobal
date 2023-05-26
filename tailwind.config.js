@@ -5,7 +5,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'sans': ['Mulish', 'sans-serif',],
+      'sans': ['Ubuntu'],
     extend: {},
   },
   plugins: [],

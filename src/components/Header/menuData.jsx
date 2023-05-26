@@ -44,38 +44,38 @@ const menuData = [
         submenu: [
           {
             id: 41,
-            title: "Banking and Finance",
-            path: "/banking",
+            title: "Banking ,Insurance and Financial",
+            path: "/banking&insurance",
             newTab: false,
           },
           {
             id: 42,
-            title: "Insurance",
-            path: "/insurance",
+            title: "healthcare,pharma and lifescience",
+            path: "/healthcare& life science",
             newTab: false,
           },
           {
             id: 43,
             title: "Travel and Transportation and Hospitality",
-            path: "/blog",
+            path: "/travel&transportation",
             newTab: false,
           },
           {
             id: 44,
-            title: "Healthcare Pharma and Life Science",
-            path: "/blog-sidebar",
+            title: "Retail and Consumer goods",
+            path: "/retail&gooods",
             newTab: false,
           },
           {
             id: 45,
-            title: "Retails, Consumer Products and Goods",
-            path: "/blog-details",
+            title: "Industrial Goods and Manufacturing",
+            path: "/Industrialgood",
             newTab: false,
           },
           {
             id: 46,
-            title: "Telecom and Manufacturing",
-            path: "/signin",
+            title: "Telecom and Media",
+            path: "/telecom&media",
             newTab: false,
           },
           
@@ -88,13 +88,13 @@ const menuData = [
     {
       id: 33,
       title: "Success Stories",
-      path: "/blog",
+      path: "/success_Stories",
       newTab: false,
     },
     {
       id: 3,
       title: "Blog",
-      path: "/contact",
+      path: "/blog",
       newTab: false,
     },
     {
@@ -104,8 +104,8 @@ const menuData = [
       submenu: [
         {
           id: 41,
-          title: "Careers",
-          path: "/career",
+          title: "Aboutus",
+          path: "/abouts",
           newTab: false,
         },
         {

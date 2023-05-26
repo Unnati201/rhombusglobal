@@ -2,6 +2,11 @@ import React from "react";
 
 
 function SliderContent({ activeIndex, sliderImage }) {
+
+
+  
+
+  
   return (
     <section>
        
@@ -21,6 +26,7 @@ function SliderContent({ activeIndex, sliderImage }) {
             <button className="rounded-button contact">Contact</button>
 
          
+
           
         </div>
         </div>

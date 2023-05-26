@@ -14,11 +14,13 @@ const ServicesCard = () => {
 <div className='serv_contentBox'>
     <div className='servc_content'>
         <h3 className='servc_h3'>Data Engineering and Solutions</h3>
-        <p className='servc_p'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sed esse doloremque, facere dolorum porro quas quis voluptatibus quasi quos animi at a.</p>
+        <p className='servc_p'>Data Integrity Solution. <br/>
+        Master Data Management <br/>
+        Analytics and AI</p>
 
-        <button className="learn-more-btn">Learn More</button>
+        <button className="learn-more-btns-ser">Learn More</button>
          
-          <BsArrowRightShort className="ind_arrow"/>
+          <BsArrowRightShort className="ind_serv_arrow"/>
     </div>
 </div>
 </div>
@@ -31,11 +33,13 @@ const ServicesCard = () => {
    </div>
 <div className='serv_contentBox'>
     <div className='servc_content'>
-        <h3 className='servc_h3'>Digital Engineering and Transformation</h3>
-        <p className='servc_p'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sed esse doloremque, facere dolorum porro quas quis voluptatibus quasi quos animi at a.</p>
-        <button className="learn-more-btn">Learn More</button>
+        <h3 className='servc_h3'>Digital Engineering and Transformation</h3><br/>
+        <p className='servc_p'>Customer Experience Management <br/>
+        Product Design and Engineering <br/>
+        App Development and Support</p>
+        <button className="learn-more-btns-ser">Learn More</button>
          
-          <BsArrowRightShort className="ind_arrow"/>
+          <BsArrowRightShort className="ind_serv_arrow"/>
     </div>
 </div>
 </div>
@@ -50,11 +54,13 @@ const ServicesCard = () => {
    </div>
 <div className='serv_contentBox'>
     <div className='servc_content'>
-        <h3 className='servc_h3'>Cloud Engineering and Platform</h3>
-        <p className='servc_p'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sed esse doloremque, facere dolorum porro quas quis voluptatibus quasi quos animi at a.</p>
-        <button className="learn-more-btn">Learn More</button>
+        <h3 className='servc_h3'>Cloud Engineering and Platfor</h3>
+        <p className='servc_p'>Cloud Engineering and Migration<br/>
+        Managed hosting and support services
+        </p>
+        <button className="learn-more-btns-ser">Learn More</button>
          
-          <BsArrowRightShort className="ind_arrow"/>
+          <BsArrowRightShort className="ind_serv_arrow"/>
     </div>
 </div>
 </div>
@@ -69,10 +75,12 @@ const ServicesCard = () => {
 <div className='serv_contentBox'>
     <div className='servc_content'>
         <h3 className='servc_h3'>Consulting and Advisory</h3>
-        <p className='servc_p'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sed esse doloremque, facere dolorum porro quas quis voluptatibus quasi quos animi at a.</p>
-        <button className="learn-more-btn">Learn More</button>
+        <p className='servc_p'>Business Consulting <br/>
+        Technology Consulting <br/>
+        Cloud and Network Consulting</p>
+        <button className="learn-more-btns-ser">Learn More</button>
          
-          <BsArrowRightShort className="ind_arrow"/>
+          <BsArrowRightShort className="ind_serv_arrow"/>
     </div>
 </div>
 </div>

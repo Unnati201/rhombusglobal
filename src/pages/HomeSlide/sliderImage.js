@@ -1,8 +1,8 @@
 import First from '../../asserts/hero-1.jpg';
 import Second from '../../asserts/hero-2.jpg';
 import Third from '../../asserts/hero-3.jpg';
-import Four from '../../asserts/hero4.jpg';
 
+import Four from '../../asserts/hero4.jpg';
 export default [
   {
     title: 'Empowering our customers for the future',

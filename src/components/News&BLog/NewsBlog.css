@@ -106,9 +106,10 @@
 
 .newblog_h1{
   font-size: 36px;
+  font-family: 'Ubuntu';
   color: #030f22;
   font-weight: 500;
-  font-family: 'Mulish', sans-serif;
+  
   margin-top: 20px;
   margin-left: 38rem;
   

@@ -1,0 +1,244 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Ubuntu";
+
+}
+
+.aboutUs_story-banner {
+    /* position: relative; */
+   max-width: 100%;
+   
+     height: 100vh; 
+   
+    
+    /* background-position: center; */
+  }
+  
+ .image_aboutus{
+    
+    width:100%;
+    height:560px;
+     background-size: cover;
+     object-fit: cover;
+} 
+
+  .aboutUs_story-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 87vh;
+    background-color: rgba(0, 0, 2, 0.6);
+  }
+  
+  .aboutUs_story-content {
+    position: absolute;
+     top: 60%; 
+    /* left: 1%; */
+    transform: translateY(-50%);
+    max-width: 800px;
+    padding: 20px;
+    color: #ffffff;
+  }
+  
+  .aboutUs_story-title {
+    font-size: 3rem;
+     margin-bottom: 20px; 
+    font-weight: 600;
+   
+  }
+  
+  .aboutUs_story-description {
+    margin-bottom: 60px;
+    width:70%;
+    color: #f6f8fc;
+    margin-left:90px;
+    
+  }
+  
+  .aboutUs_story-button {
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+
+  
+  
+
+  
+  
+@media screen and (max-width: 1024px) {
+    .aboutUs_story-content {
+      left: 5%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .aboutUs_story-content {
+      left: 50%;
+      transform: translate(-50%, -50%);
+      max-width: 90%;
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .aboutUs_story-content {
+      left: 5%;
+      max-width: 90%;
+    }
+  }
+  
+
+  /* Responsive Styles */
+@media (max-width: 768px) {
+    .aboutUs_story-title {
+      font-size: 28px;
+    }
+  
+    .aboutUs_story-description {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+  
+    .aboutUs_story-button {
+      font-size: 18px;
+      padding: 8px 16px;
+    }
+  }
+  
+  /* Responsive Styles for Tablet */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .aboutUs_story-title {
+      font-size: 32px;
+    }
+  
+    .aboutUs_story-description {
+      font-size: 17px;
+      margin-bottom: 25px;
+    }
+  
+   
+  }
+
+
+  /* Our Aboutus Pages */
+
+  .our_focs_page{
+    font-size: 38px;
+    margin-top:7px;
+     font-weight: 400;
+     margin-left: 72px;
+     padding:20px;
+  }
+
+  .aboutus_p_data{
+    font-size: 20px;
+     font-family: "Roboto";
+     line-height: 2rem;  
+    margin-left: 90px;
+   word-break: break-all;
+  }
+
+
+  .our_focus_backg{
+    height:500px;
+    width: 100%;
+    background-color: #14142b;
+  }
+
+  /* Our approach section */
+
+  .aboutUs_story-banner_ourapproach {
+    /* position: relative; */
+   max-width: 100%;
+   
+     height: 100vh; 
+   
+    
+    /* background-position: center; */
+  }
+  
+ .image_aboutus_ourapproach{
+    
+    width:100%;
+    height:560px;
+     background-size: cover;
+     object-fit: cover;
+} 
+
+  .aboutUs_story-overlay_ourapproach {
+     position: absolute; 
+     top: 47.3rem; 
+    /* left: 0; */
+    width: 100%;
+    height: 590px;
+    background-color: rgba(9, 11, 26, 0.9);
+  }
+  
+  .aboutUs_story-content_ourapproach {
+    position: absolute;
+      /* top: 60%;   */
+    /* left: 1%; */
+    transform: translateY(-50%);
+    max-width: 800px;
+    padding: 20px;
+    color: #ffffff;
+  }
+  
+  .aboutUs_story-title_ourapproach {
+    font-size: 36px;
+     /* margin-bottom: 50rem;  */
+    font-weight: 400;
+   
+  }
+  
+  .aboutUs_story-description_ourapproach {
+    margin-bottom: 36rem;
+    width:60%;
+    color: #ffffff;
+    margin-left:90px;
+    font-weight: 300px;
+    
+  }
+  
+  
+
+  /* card styling our approach */
+
+  .card-row_ourapprch_data {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+   /* position: absolute; */
+  }
+  
+  .card_ourapprch_data {
+    width: 300px;
+    height: 150px;
+    background-color: #e97a7a;
+    margin: 0 10px;
+  float: right;
+  
+    /* display: flex; */
+    /* justify-content: center; */
+    align-items: center;
+    display: grid;
+    grid-template-rows: 50px 50px 50px;
+    grid-template-columns: 40px 40px 40px;
+    
+   
+   
+  }
+  
+  
+
+  

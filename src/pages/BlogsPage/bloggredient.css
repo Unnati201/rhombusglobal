@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Ubuntu";
+
+}
+
+.blog_allcategry-banner {
+    /* position: relative; */
+    width: 100%;
+    /* height: 100vh; */
+   
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .blog_allcategry-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 87vh;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .blog_allcategry-content {
+    position: absolute;
+     top: 60%; 
+    /* left: 1%; */
+    transform: translateY(-50%);
+    max-width: 800px;
+    padding: 20px;
+    color: #ffffff;
+  }
+  
+  .blog_allcategry-title {
+    font-size: 3rem;
+     margin-bottom: 30px; 
+    font-weight: 600;
+   
+  }
+  
+  .blog_allcategry-description {
+    margin-bottom: 60px;
+    width:70%;
+    color: #f6f8fc;
+    margin-left:90px;
+    
+  }
+  
+  .blog_allcategry-button {
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    background-color: #007bff;
+   
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+
+  
+  
+
+  
+  
+@media screen and (max-width: 1024px) {
+    .blog_allcategry-content {
+      left: 5%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .blog_allcategry-content {
+      left: 50%;
+      transform: translate(-50%, -50%);
+      max-width: 90%;
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .blog_allcategry-content {
+      left: 5%;
+      max-width: 90%;
+    }
+  }
+  
+
+  /* Responsive Styles */
+@media (max-width: 768px) {
+    .blog_allcategry-title {
+      font-size: 28px;
+    }
+  
+    .blog_allcategry-description {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+  
+    .blog_allcategry-button {
+      font-size: 18px;
+      padding: 8px 16px;
+    }
+  }
+  
+  /* Responsive Styles for Tablet */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .blog_allcategry-title {
+      font-size: 32px;
+    }
+  
+    .blog_allcategry-description {
+      font-size: 17px;
+      margin-bottom: 25px;
+    }
+  
+   
+  }
+
+
+  /* title author for blog pages*/
+
+   .blog_des_author{
+    font-size: 38px;
+    margin-top:3.3rem;
+     font-weight: 400;
+     margin-left: 76px;
+     padding:20px;
+   }
+
+   .blog_data_p{
+     font-size: 20px;
+     font-family: "Roboto";
+     line-height: 2rem;  
+    margin-left: 90px;
+   word-break: break-all;
+   }
+

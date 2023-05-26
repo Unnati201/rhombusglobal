@@ -1,0 +1,67 @@
+.bankoffer_card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    
+  }
+  
+  .bankoffer_top-row,
+  .bankoffer_bottom-row {
+    display: flex;
+    justify-content: space-around;
+   
+    width: 100%;
+    
+  }
+
+  .bankoffer_bottom-row {
+    margin-top:30px;
+    
+  }
+  
+  .bankoffer_card {
+    background-color: #e5ebfa;
+    height:140px;
+    width:350px;
+    padding: 25px;
+    border-radius: 8px;
+   
+   box-shadow: 0px 0px 4px rgb(173, 173, 187);
+  }
+
+  .bankoffer_card:hover{
+    box-shadow: 0px 0px 4px rgb(173, 173, 187),
+   0px 0px 8px rgb(173, 173, 187),
+   0px 0px 12px rgb(173, 173, 187);
+  }
+  
+  .bankoffer_arrow {
+    width: 35px;
+    height: 35px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    color: aliceblue;
+   margin:10px;
+    /* Additional styles for the arrow button */
+  }
+
+
+  .bankoffrs_arrow{
+    height:25px;
+    width:35px;
+  }
+  
+
+  .bankoffer_serv{
+    font-size: 34px;
+    
+     font-weight: 400;
+     margin-left: 62px;
+     padding:20px;
+     font-size: "Ubuntu";
+  }
+
+  

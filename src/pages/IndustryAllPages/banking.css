@@ -1,0 +1,217 @@
+.banking-banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  .bank_img_first {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .bank_data {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .banking-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .banking-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  
+  
+  .dataeng-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .dataeng-button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .dataeng-title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .dataeng-description {
+    margin-bottom: 20px;
+    width:70%;
+    color: #f6f8fc;
+    margin-left: -3px;
+    
+  }
+  
+  .dataeng-button {
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    background-color: #007bff;
+   
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+
+
+
+.banking_list_wise{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+  
+  
+@media screen and (max-width: 1024px) {
+    .dataeng-content {
+      left: 5%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .dataeng-content {
+      left: 50%;
+      transform: translate(-50%, -50%);
+      max-width: 90%;
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .dataeng-content {
+      left: 5%;
+      max-width: 90%;
+    }
+  }
+  
+
+  /* Responsive Styles */
+@media (max-width: 768px) {
+    .dataeng-title {
+      font-size: 28px;
+    }
+  
+    .dataeng-description {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+  
+    .dataeng-button {
+      font-size: 18px;
+      padding: 8px 16px;
+    }
+  }
+  
+  /* Responsive Styles for Tablet */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .dataeng-title {
+      font-size: 32px;
+    }
+
+    
+  
+    .dataeng-description {
+      font-size: 17px;
+      margin-bottom: 25px;
+    }
+  
+    .dataeng-button {
+      font-size: 19px;
+      padding: 9px 18px;
+    }
+  }
+
+
+  /* What we offer in banking listing */
+
+  .bank_offer_body{
+    background-color: #e5ebfa;
+    height:70vh;
+  }
+
+  .banking_what_offer_h1{
+    font-size: 34px;
+    margin-top:7rem;
+     font-weight: 400;
+     margin-left: 62px;
+     padding:20px;
+    
+  }
+
+  .bank_offer_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 30px;
+    
+  }
+  
+  .bank_column {
+    flex-basis: 100%;
+    max-width: 300px;
+    margin-bottom: 60px;
+    line-height: 2rem;
+  }
+  
+  .column h2 {
+    text-align: center;
+  }
+  
+  .column ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    color: #f6f8fc;
+    
+  }
+
+
+  .arrow_btn_trans{
+    color: #007bff;
+    height: 21px;
+    width:30px;
+    margin-left: 2px;
+
+  }
+  
+  @media (min-width: 768px) {
+    .column {
+      flex-basis: calc(50% - 20px);
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .column {
+      flex-basis: calc(33.33% - 20px);
+      margin-bottom: 0;
+    }
+  }
+  

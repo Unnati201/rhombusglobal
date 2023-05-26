@@ -48,10 +48,10 @@
 }
 
 .solv_p {
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 400;
   margin-top: -1rem;
-  color: #a6a4ba;
+  color: rgb(239, 227, 227);
 }
 
 .solvg_container .solvg_card .solvg_imgBox,
@@ -152,9 +152,6 @@ color: #fff;
   text-align: center;
   justify-content: center;
   }
-  
-  
-  
   
   
   

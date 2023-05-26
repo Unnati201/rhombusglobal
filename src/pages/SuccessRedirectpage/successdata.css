@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Ubuntu";
+
+}
+
+.success_data_story-banner {
+     /* position: relative;  */
+    width: 100%;
+      /* height: 100vh;   */
+   
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .success_data_story-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 87vh;
+    background-color: #000000b3;
+  }
+  
+  .success_data_story-content {
+    position: absolute;
+    top: 60%;
+    /* left: 1%; */
+    transform: translateY(-50%);
+    max-width: 700px;
+    padding: 20px;
+    color: #ffffff;
+  }
+  
+  .success_data_story-title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .success_data_story-description {
+    margin-bottom: 20px;
+    width:70%;
+    color: #f6f8fc;
+    margin-left: -3px;
+    
+  }
+  
+  
+
+
+  
+  
+
+  
+  
+@media screen and (max-width: 1024px) {
+    .success_data_story-content {
+      left: 5%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .success_data_story-content {
+      left: 50%;
+      transform: translate(-50%, -50%);
+      max-width: 90%;
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .success_data_story-content {
+      left: 5%;
+      max-width: 90%;
+    }
+  }
+  
+
+  /* Responsive Styles */
+@media (max-width: 768px) {
+    .success_data_story-title {
+      font-size: 28px;
+    }
+  
+    .success_data_story-description {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+  
+    .success_data_story-button {
+      font-size: 18px;
+      padding: 8px 16px;
+    }
+  }
+  
+  /* Responsive Styles for Tablet */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .success_data_story-title {
+      font-size: 32px;
+    }
+  
+    .success_data_story-description {
+      font-size: 17px;
+      margin-bottom: 25px;
+    }
+  
+    .success_data_story-button {
+      font-size: 19px;
+      padding: 9px 18px;
+    }
+  }
+
+
+  /* Paragraph section of success stories page */
+
+  .success_data_h3{
+    font-size: 38px;
+    margin-top:7px;
+     font-weight: 400;
+     margin-left: 76px;
+     padding:20px;
+  }
+
+  .success_data_p{
+    font-size: 20px;
+     font-family: "Roboto";
+     line-height: 2rem;  
+    margin-left: 90px;
+   word-break: break-all;
+  }
+
+
+  .success_sec_data{
+    background-color: #e5ebfa;
+    height:420px;
+    width:100%
+  }

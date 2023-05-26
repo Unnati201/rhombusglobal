@@ -2,7 +2,7 @@
     width: 100%;
     background-color: white;
     height: 50vh;
-    margin-top: 50px;
+     margin-top: -30px; 
     text-align: center;
    
   }
@@ -14,8 +14,7 @@
     padding-left: 1rem;
     font-weight: 500;
     
-    font-family: 'Mulish',sans-serif;
-
+    font-family: "Ubuntu";
   }
   
   .our_part_image_wrap {
