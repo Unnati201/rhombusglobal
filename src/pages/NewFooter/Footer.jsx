@@ -7,8 +7,8 @@ const Footer = () => {
   return (
    
     <footer className="bg-[#151010] text-white -mt-20">
-      <div className="md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#151010] py-7">
-       <img className= "h-26 w-45 mx-auto " src="asserts/rgslogonew.png" alt="rgs-tech"></img>
+      <div className="md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#151010] ">
+       <img className= "h-26 w-45 text-center mx-auto mr-150 " src="asserts/rgslogonew.png" alt="rgs-tech"></img>
      
       </div>
 

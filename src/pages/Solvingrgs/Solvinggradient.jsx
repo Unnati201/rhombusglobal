@@ -33,9 +33,10 @@ const Solvinggradient = () => {
           <img className='solvgrd_imgs_cloud' src="asserts/serv3.png" alt=""></img>
           </div>
           <h3 className='solvgrad_h3'>Drive Growth and ROI</h3>
-          <p className='solvgrad_p'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi architecto minus et odit minima exercitationem amet? Eligendi ipsa quasi mollitia, tenetur vitae quae </p>
+          <p className='solvgrad_p'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi architecto minus et odit minima exercitationem amet? Eligendi ipsa quasi mollitia, tenetur vitae quae r</p>
         </div>
       </div>
+      <p className='solvgrad_p_last_drive'>We help CXO's and enterprises solve their most complex technology and business challenges. Our expertise is in our ability to help you sustain, grow and stay ahead of the curve </p>
     </div>
   );
 }

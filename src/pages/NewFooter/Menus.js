@@ -10,7 +10,7 @@ export const INDUSTRIES = [
   export const SERVICES = [
     { name: "Data Engineering & Solution", link: "/dataeng" },
     
-    { name: "Digital Engineeering & Transformation", link: "/digital" },
+    { name: "Digital Engineeering ", link: "/digital" },
     { name: "Cloud Engineering & Platforms", link: "/cloudeng" },
    
     { name: "Consultant & Advisory ", link: "/consultant" },

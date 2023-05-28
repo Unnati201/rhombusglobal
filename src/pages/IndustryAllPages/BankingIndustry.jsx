@@ -3,6 +3,7 @@ import banking1 from '../../asserts/banksind.jpg';
 import "./banking.css";
 import Contact from '../../components/Contactdata/Contact';
 import Footer from '../NewFooter/Footer';
+import ourapproach_image  from "../../asserts/ourfocus.jpg";
 
 import BankOfferService from './BankOfferService';
 
@@ -91,8 +92,58 @@ customer experience design, risk management, and regulatory compliance.</p>
         </ol>
       </div>
     </div>
+
+{/* Our Approach */}
+
+   
+   
+ 
+<div className="aboutUs_story-banner_ourapproach">
+    <img className='image_aboutus_ourapproach'  src={ourapproach_image} alt="" />
+<div className="aboutUs_story-overlay_ourapproach_bankind"></div>
+
+<div className="aboutUs_story-content_ourapproach">
+  <h1 className="aboutUs_story-title_ourapproach">Our Approach
+</h1><br/>
+  
+  <div className='aboutus_desc_body'>
+  <p className='aboutUs_story-description_ourapproach'>At Rhombus Global Services, we prioritize clients, deliver tailored solutions. Data-driven insights inform decisions, uncover opportunities. We guide digital transformation, fuel innovation, optimize processes. Automation and optimization streamline workflows, drive growth..
+</p>
+</div>
+
+
+ 
+</div>
+
+
+
+
+
+
+
+
+
+
+      <div className="ourapp_card-row">
+        <div className="ourapp_card">Card 1</div>
+        <div className="ourapp_card">Card 2</div>
+        <div className="ourapp_card">Card 3</div>
+      </div>
+      <div className="ourapp_card-row">
+        <div className="ourapp_card">Card 4</div>
+        <div className="ourapp_card">Card 5</div>
+        <div className="ourapp_card">Card 6</div>
+      </div>
+
+
+      </div>
+
+
+   
+<div className="bank_detail_all_contct">
     <Contact/>
 <Footer/>
+</div>
 </div>
 
 </div>

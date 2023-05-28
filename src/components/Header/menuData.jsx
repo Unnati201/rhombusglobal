@@ -51,7 +51,7 @@ const menuData = [
           {
             id: 42,
             title: "healthcare,pharma and lifescience",
-            path: "/healthcare& life science",
+            path: "/healthcare&lifescience",
             newTab: false,
           },
           {

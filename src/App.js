@@ -11,6 +11,7 @@ import BankingIndustry from './pages/IndustryAllPages/BankingIndustry';
 import Blogpagedata from './pages/BlogsPage/Blogpage_all';
 import Successdatapage from './pages/SuccessRedirectpage/Successdatapage';
 import Aboutpage from './pages/AboutusMainpage/Aboutpage';
+import HealthcareInd from './pages/Healthcare&lifeScience/HealthcareInd';
 
 function App() {
   return (
@@ -20,12 +21,13 @@ function App() {
       <Routes>
          <Route path='/' element={<HomePages />} />   
          <Route path='/dataeng' element={<DataEngineering />} />   
-         <Route path='/banking' element={<BankingIndustry />} /> 
+         <Route path='/banking&insurance' element={<BankingIndustry />} /> 
          <Route path='/blog' element={<Blogpagedata />} /> 
 
          <Route path='/success_stories' element={<Successdatapage/>} /> 
          
          <Route path='/abouts' element={<Aboutpage/>} /> 
+         <Route path='/healthcare&lifescience' element={<HealthcareInd/>} /> 
         </Routes>
       </Router>
     </div>

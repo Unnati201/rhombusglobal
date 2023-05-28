@@ -14,7 +14,7 @@ const ServicesCard = () => {
 <div className='serv_contentBox'>
     <div className='servc_content'>
         <h3 className='servc_h3'>Data Engineering and Solutions</h3>
-        <p className='servc_p'>Data Integrity Solution. <br/>
+        <p className='servc_p'>Data Integrity Solutions. <br/>
         Master Data Management <br/>
         Analytics and AI</p>
 
@@ -54,8 +54,9 @@ const ServicesCard = () => {
    </div>
 <div className='serv_contentBox'>
     <div className='servc_content'>
-        <h3 className='servc_h3'>Cloud Engineering and Platfor</h3>
+        <h3 className='servc_h3'>Cloud Engineering and Platform</h3>
         <p className='servc_p'>Cloud Engineering and Migration<br/>
+        Cloud Native Development<br/>
         Managed hosting and support services
         </p>
         <button className="learn-more-btns-ser">Learn More</button>
@@ -74,7 +75,7 @@ const ServicesCard = () => {
    </div>
 <div className='serv_contentBox'>
     <div className='servc_content'>
-        <h3 className='servc_h3'>Consulting and Advisory</h3>
+        <h3 className='servc_h3'>Advisory &Consulting </h3>
         <p className='servc_p'>Business Consulting <br/>
         Technology Consulting <br/>
         Cloud and Network Consulting</p>

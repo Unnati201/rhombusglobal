@@ -1,191 +1,181 @@
-*{
-    margin: 0;
-    padding:0;
-    box-sizing:border-box
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.contact_body{
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -70px;
+.contact_body {
+   min-height: 100vh; 
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
 }
 
-.contct_container{
-    width:100%;
-    height:80vh;
-    /* padding:20px; */
-    background: #222;
-    color: #eee;
-
+.contct_container {
+  width: 100%;
+  height: 80vh;
+  background: #222;
+  color: #eee;
 }
 
-.contct_container .cont_h2{
+.contct_container .cont_h2 {
   color: white;
   font-size: 42px;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   margin-right: 13rem;
-  font-family: 'Mulish',sans-serif;
+  font-family: 'Mulish', sans-serif;
   font-weight: 500;
-  padding:10px;
+  padding: 10px;
 }
 
-.contct_wrapper{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    grid-gap:30px;
-    gap:30px;
-
+.contct_wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-gap: 30px;
+  gap: 30px;
 }
 
-.contct_wrapper .contct_box{
-    width:100%;
-    position: relative;
-    padding: 20px;
-    margin-left: 60px;
+.contct_wrapper .contct_box {
+  width: 100%;
+  position: relative;
+  padding: 20px;
+  margin-left: 60px;
 }
 
 .contct_wrapper .contct_box input {
-    width:100%;
-    font-size: 20px;
-    background: transparent;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid #fff;
-    /* transition:0.5s */
-     
-
+  width: 100%;
+  font-size: 20px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #fff;
 }
 
-.contct_wrapper .contct_box input:focus ~ label{
-   transform: translateY(-32px);
-    
+.contct_wrapper .contct_box input:focus ~ label {
+  transform: translateY(-32px);
 }
 
-.contct_wrapper .contct_box label{
-    position: absolute;
-    top:0;
-    left: 0;
-    color: #eee;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 20px;
-     transition: 0.5s;
-     display: inline-block; 
-     pointer-events: none;
-
-}
-
-.contct_wrapper  .contct_box textarea{
-    width:480px;
-    height:240px;
-    background: transparent;
-    border: 1px solid #fff;
-
-    padding: 20px;
-    float :left;
-    margin-left: 42rem;
-    margin-top: -260px;
-}
-
-.contct_wrapper .contct_box textarea:focus ~ .label-text-msg{
-    transform: translateY(-48px);
-     
- }
-
-
-
-.label-text-msg{
-    margin-left: 44rem;
-    margin-top: -240px;
-    display: block;
-    width: 100%;
-    resize: vertical;
-   line-height: normal;
+.contct_wrapper .contct_box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #eee;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px;
   transition: 0.5s;
-     /* margin:15px 0px 0px 20px;  */
-   
+  display: inline-block;
+  pointer-events: none;
 }
 
+.contct_wrapper .contct_box textarea {
+  width: 480px;
+  height: 240px;
+  background: transparent;
+  border: 1px solid #fff;
+  padding: 20px;
+  float: left;
+  margin-left: 42rem;
+  margin-top: -240px;
+}
+
+.contct_wrapper .contct_box textarea:focus ~ .label-text-msg {
+  transform: translateY(-48px);
+}
+
+.label-text-msg {
+  margin-left: 44rem;
+  margin-top: -220px;
+  display: block;
+  width: 100%;
+  resize: vertical;
+  line-height: normal;
+  transition: 0.5s;
+}
 
 .contact-submit-btn {
-    border: none;
-   
-    padding: 10px 20px;
-    margin: 0 10px;
-    font-size: 16px;
-    font-weight: bold;
-    /* text-transform: uppercase; */
-    cursor: pointer;
-  }
-  
-  .cont_submit{
-    background-color: #fff;
-    color: #222;
-    width:170px;
-    height:50px;
-    border-radius: 30px;
-    margin-left: 50px;
-    gap: 30;
-  }
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
 
-.contact_submit1{
+.cont_submit {
+  background-color: #fff;
+  color: #222;
+  width: 170px;
+  height: 50px;
+  border-radius: 30px;
+  margin-left: 50px;
+  gap: 30;
+}
+
+.contact_submit1 {
   background-color: #007bff;
   color: #fff;
-  width:170px;
-  height:50px;
+  width: 170px;
+  height: 50px;
   border-radius: 30px;
 }
+
+.checkbox {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.checkbox input[type='checkbox'] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  margin-right: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.checkbox input[type='checkbox']::before {
+  content: '\2713';
+  position: absolute;
+  top: 50%;
+  right: 89%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 14px;
+  visibility: hidden;
+}
+
+.checkbox input[type='checkbox']:checked::before {
+  visibility: visible;
+}
+
+.contct_box.checkbox .check_label {
+  font-size: 16px;
+  color: #eee;
+  margin-left: 30px;
+  margin-top: -6px;
+  
  
-  
-  
-  .checkbox-data {
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 5px;
-  }
-  
-  .contct_box {
-    margin-bottom: 15px;
-  }
-  
-  /* #subscribeCheckbox:checked ~ .checkbox-data:before,
-  #termsCheckbox:checked ~ .checkbox-data:before {
-    content: "✓";
-    color: #fff;
-    background-color: #37a000;
-    border-radius: 50%;
-    padding: 2px;
-    margin-right: 5px;
-  }
-  
-  #subscribeCheckbox:checked ~ .checkbox-data:before {
-    background-color: #007bff;
-  }
-  
-  #termsCheckbox:required:invalid ~ .checkbox-data {
-    color: #f00;
-  }
-  
-  #termsCheckbox:required:valid ~ .checkbox-data:before {
-    background-color: #37a000;
-  }
-  
-  #termsCheckbox:required:valid ~ .checkbox-data:after {
-    content: "*";
-    color: #f00;
-  }
-  
-  #termsCheckbox:required:valid ~ .checkbox-data:before,
-  #termsCheckbox:required:invalid ~ .checkbox-data:before {
-    color: #fff;
-  }
+}
 
-   */
+.terms_and_conditions {
+  font-size: 14px;
+  color: #eee;
+  margin-top: 10px;
+  
+}
 
+.subscribe_text {
+  font-size: 16px;
+  color: #eee;
 
-   
-    
+}

@@ -9,7 +9,7 @@
     height: 600px;
     object-fit: cover;
      /* background-color: rgb(194, 224, 251); */
-   background-color: #ebf0fc;
+   background-color: #fff;
     /* padding:30px; */
     
 }
@@ -19,7 +19,7 @@
     display: grid;
     grid-template-columns: 26rem 26rem 26rem;
     grid-template-rows: 15rem 15rem 15rem;
-    padding-left: 3rem;
+    padding-left: 5rem;
     margin-top: 5rem;
     
     
@@ -94,7 +94,7 @@
   font-weight: 500;
   color: #222;
   font-family: 'Ubuntu';
-  padding-left: 22rem;
+  padding-left: 25rem;
 }
 
 .industry-font1{

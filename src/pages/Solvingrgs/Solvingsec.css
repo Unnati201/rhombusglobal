@@ -1,7 +1,7 @@
 .solving-section {
     text-align: center;
     height:100vh;
-    background-color: #ebf0fc;
+    /* background-color: #ebf0fc; */
     /* padding: 50px; */
   }
   
@@ -16,7 +16,7 @@
   }
   
   .solving-section p {
-    font-size: 25px;
+    font-size: 23px;
     margin-bottom: 40px;
     font-weight: 400;
     color: #241f1f;
@@ -47,7 +47,13 @@
 background-color: aqua;
 }
 
-
+.solvgrad_p_last_drive{
+  font-size: 23px;
+  margin-bottom: 42px;
+  font-weight: 400;
+  margin: 50px;
+  color: #fff;
+}
 
   
   

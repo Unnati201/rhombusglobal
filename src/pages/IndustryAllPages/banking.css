@@ -2,7 +2,7 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background-color: #f2f2f2;
+    background-color: #fff;
   }
   
   .bank_img_first {
@@ -32,7 +32,7 @@
   .banking-content {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 48%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
@@ -215,3 +215,102 @@
     }
   }
   
+
+  /* Our Approach */
+
+  .aboutUs_story-banner_ourapproach {
+    /* position: relative; */
+   max-width: 100%;
+   
+     height: 100vh; 
+   
+    
+    /* background-position: center; */
+  }
+  
+  .image_aboutus_ourapproach{
+    
+    width:100%;
+    height:470px;
+     background-size: cover;
+     object-fit: cover;
+  } 
+  
+  .aboutUs_story-overlay_ourapproach_bankind {
+     position: absolute; 
+     top: 110rem; 
+    /* left: 0; */
+    width: 100%;
+    height: 480px;
+    background-color: rgba(9, 11, 26, 0.9);
+  }
+  
+  .aboutUs_story-content_ourapproach {
+    position: absolute;
+      /* top: 60%;   */
+    /* left: 1%; */
+    transform: translateY(-50%);
+    max-width: 800px;
+    padding: 20px;
+    color: #ffffff;
+  }
+  
+  .aboutUs_story-title_ourapproach {
+    font-size: 46px;
+     /* margin-bottom: 50rem;  */
+    font-weight: 400;
+    margin-top: -1.2rem;
+    margin-left: 48px;
+   
+  }
+  
+  .aboutUs_story-description_ourapproach {
+    margin-bottom: 36rem;
+    width:60%;
+    color: #ffffff;
+    margin-left:50px;
+    font-weight: 300px;
+   /* letter-spacing: 1px; */
+    line-height: 1.4;
+    
+  }
+  
+  
+  
+    
+  /* card style */
+  /* card styling our approach */
+  
+    .ourapp_card-row {
+      position: relative;
+      display: flex;
+      gap:20px;
+      /* justify-content: space-between; */
+      margin-top: -18rem;
+      flex-direction: row-reverse;
+     
+    }
+    
+    .ourapp_card {
+      width: 220px;
+      height: 110px;
+      background-color: 
+      #e5ebfa;
+      border-radius: 5px;
+      /* margin-bottom: 20px; */
+    margin: 10px 20px 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 2px 3px 3px rgb(173, 173, 187);
+      
+    }
+  
+    .ourapp_card:hover{
+      background-color: #007bff;
+    }
+    
+
+    .bank_detail_all_contct{
+      margin-top: -15rem;
+    }

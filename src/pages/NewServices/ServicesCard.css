@@ -47,7 +47,7 @@
   }
   
   .solv_p {
-    font-size: 23px;
+    font-size: 22px;
     font-weight: 400;
     margin-top: -1rem;
     color: #a6a4ba;
@@ -126,9 +126,9 @@
     }
     
     .serv_container .serv_card .serv_contentBox .servc_content .servc_p {
-    font-size: 19px;
-    margin: 10px;
-    line-height: 2rem;
+    font-size: 16px;
+    margin: 2px;
+    line-height: 1.8rem;
     font-weight: 300;
     color: #fff;
     }
