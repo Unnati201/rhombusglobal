@@ -43,12 +43,14 @@ const Header = () => {
   return (
     <>
       <header
-        className={`header top-0 font-ubuntu left-0 z-40 flex w-full h-30 items-center bg-transparent ${
-          sticky
-            ? "!fixed !z-[9999] !bg-black !bg-opacity-80 shadow-sticky backdrop-blur-sm !transition dark:!bg-primary dark:!bg-opacity-20"
-            : "absolute"
-        }`}
-      >
+  className={`header top-0 font-ubuntu left-0 z-40 flex w-full h-30 items-center ${
+    sticky
+      ? '!fixed !z-[9999] bg-black bg-opacity-80 shadow-sticky backdrop-blur-sm transition dark:bg-primary dark:bg-opacity-20'
+      : 'absolute'
+  }`}
+>
+
+
         <div className="container">
           <div className="relative -mx-7 flex items-center justify-between  font-ubuntu  ">
             <div className="w-60 max-w-full px-4  xl:mr-16">

@@ -3,6 +3,7 @@
   flex-wrap: wrap;
   /* margin-left: 8rem; */
   gap: 2rem;
+  justify-content: center;
   margin-top: 60px;
   text-align: center;
 }
@@ -13,7 +14,7 @@
   width: 100%;
   margin-top: -50px;
   justify-content: center;
-  margin: 40px;
+  /* margin: 40px; */
 }
 
 .blog-card {

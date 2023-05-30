@@ -18,8 +18,8 @@ const Solvinggradient = () => {
           <div className="card-icon">
             <img className='solvgrd_img' src="asserts/serv1.png" alt=""></img>
           </div>
-          <h3 className='solvgrad_h3'>Digital Transformation</h3>
-          <p className='solvgrad_p'>Data, Digital and Cloud to achieve scale, agility, and security</p>
+          <h3 className='solvgrad_h3'>  Achieve Digital Transformation</h3>
+          <p className='solvgrad_p'>Leverage automation data, digital and cloud to architect composable and flexible Information architecture</p>
         </div>
         <div className="solvgrd_card">
           <div className="card-icon">

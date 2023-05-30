@@ -42,7 +42,7 @@ const Contact = () => {
               <label htmlFor='email'>Work Email*</label>
             </div>
             <div className='contct_box'>
-              <input type='number' name='mob' id='mob' required />
+              <input type='text' name='mob' id='mob' required />
               <label htmlFor='mob'>Phone number*</label>
             </div>
           </div>
