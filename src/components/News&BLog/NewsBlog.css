@@ -8,8 +8,11 @@
 
 .blog_body {
   background-color: #ffffff;
+  
   width: 100%;
   margin-top: -50px;
+  justify-content: center;
+  margin: 40px;
 }
 
 .blog-card {
@@ -19,6 +22,7 @@
   background-color: #fff;
   border-radius: 5px;
   margin-bottom: 20px;
+  
 }
 
 .blog-card:hover {
@@ -48,7 +52,8 @@
 
 .blog-card h2 {
   font-size: 23px;
-  padding: 20px;
+  /* padding: 20px; */
+
   margin-top: -10px;
   font-family: 'Mulish';
 }
@@ -110,9 +115,10 @@
   font-family: 'Ubuntu';
   color: #030f22;
   font-weight: 500;
-  
+  justify-content: center;
+  text-align: center;
   margin-top: 20px;
-  margin-left: 38rem;
+  /* margin-left: 38rem; */
   
 }
 

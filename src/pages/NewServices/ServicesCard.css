@@ -6,7 +6,7 @@
   }
   
   .serv_body {
-    /* justify-content: center; */
+     justify-content: center; 
     /* align-items: center; */
     display: flex;
     min-height: 100%;
@@ -16,17 +16,18 @@
   .serv_container {
     position: relative;
     display: flex;
-    justify-content: center;
+     justify-content: center; 
     align-items: center;
-    flex-wrap: wrap;
-    max-width: 1400px;
-    margin-left: 59px;
+    flex-wrap: nowrap;
+    max-width: 1300px;
+   
+     /* margin-left: 59px;  */
   }
   
   .serv_container .serv_card {
     position: relative;
     height: 380px;
-    width: 300px;
+    width: 290px;
     margin: 12px;
     margin-bottom: 8rem;
      overflow: hidden; 
@@ -67,7 +68,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 300px;
+    width: 290px;
     height: 300px;
     object-fit: cover;
     /* margin-left: 5rem; */
