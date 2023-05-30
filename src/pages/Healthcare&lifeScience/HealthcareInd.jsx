@@ -15,7 +15,7 @@ const HealthcareInd = () => {
 <div className="healthcare-overlay"></div>
 
 <div className="healthcare-content">
-<h1 className="healthcare-title">Banking Insurance and Financial Services</h1>
+<h1 className="healthcare-title">Healthcare ,Pharma and Lifescience</h1>
 {/* <p className="dataeng-description"> */}
 
 <button className="dataeng-button">Get in Touch</button>
@@ -99,7 +99,7 @@ customer experience design, risk management, and regulatory compliance.</p>
 
 <div className="aboutUs_story-banner_ourapproach">
   <img className='image_aboutus_ourapproach'  src={ourapproach_image} alt="" />
-<div className="aboutUs_story-overlay_ourapproach_bankind"></div>
+<div className="aboutUs_story-overlay_ourapproach_healthcare"></div>
 
 <div className="aboutUs_story-content_ourapproach">
 <h1 className="aboutUs_story-title_ourapproach">Our Approach
@@ -123,20 +123,40 @@ customer experience design, risk management, and regulatory compliance.</p>
 
 
 
-    <div className="ourapp_card-row">
-      <div className="ourapp_card">Card 1</div>
-      <div className="ourapp_card">Card 2</div>
-      <div className="ourapp_card">Card 3</div>
-    </div>
-    <div className="ourapp_card-row">
-      <div className="ourapp_card">Card 4</div>
-      <div className="ourapp_card">Card 5</div>
-      <div className="ourapp_card">Card 6</div>
-    </div>
+<div className="ourapp_card-row">
+        <div className="ourapp_card">
+          <p className='ourapprch_p'>Agile and Iterative Approach</p>
+          </div>
+        <div className="ourapp_card">
+        <p className='ourapprch_p'>Quality that Delights</p>
+        </div>
+
+        <div className="ourapp_card">
+        <p className='ourapprch_p'>Inclusion,Diversity and Respect</p>
+        
+        </div>
+      </div>
 
 
-    </div>
+      <div className="ourapp_card-row">
+        <div className="ourapp_card">
+        <p className='ourapprch_p'>Customer Centricity and Empathy</p>
+        
+        </div>
 
+        <div className="ourapp_card">
+        <p className='ourapprch_p'>Sustained Innovation and Value</p>
+
+        </div>
+
+        <div className="ourapp_card">
+        <p className='ourapprch_p'>Ownership,Agility and Flexibility</p>
+
+        </div>
+      </div>
+
+
+      </div>
 
  
 <div className="bank_detail_all_contct">

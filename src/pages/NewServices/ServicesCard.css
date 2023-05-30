@@ -117,7 +117,7 @@
   
   .serv_container .serv_card .serv_contentBox .servc_content .servc_h3 {
     margin-top: 8px;
-    font-size: 22px;
+    font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 600;
@@ -128,10 +128,11 @@
     .serv_container .serv_card .serv_contentBox .servc_content .servc_p {
     font-size: 16px;
     margin: 2px;
-    line-height: 1.8rem;
+    line-height: 1.6rem;
     font-weight: 300;
     color: #fff;
     }
+
     
     
     
@@ -224,3 +225,6 @@
     height: auto;
   }
 }
+
+/* list inside transition services section */
+

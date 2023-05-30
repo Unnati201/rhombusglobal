@@ -22,7 +22,7 @@ const NewsBlog = () => {
           <img  src="asserts/blog-2.jpg" alt=""></img>
           </div>
           <p className='blog_p2'>Blog|May22,2023</p>
-          <h2>Card 2 Title</h2>
+          <h2>LibreSpace: Empowering hybrid workforce </h2>
           <p className='blog_p1'>This is the content of Card 2.</p>
           <a  classname= "blog_a" href="#">Learn More</a>
           
@@ -30,16 +30,18 @@ const NewsBlog = () => {
         </div>
         <div className="blog-card">
         <p className='blog_p2'>Blog|May22,2023</p>
-          <h2>Card 3 Title</h2>
-          <p className='blog_p1'>This is the content of Card 3.</p>
+          <h2>Digitized Education: Recalibrating The Idea Of Classrooms
+</h2>
+          {/* <p className='blog_p1'>This is the content of Card 3.</p> */}
           <a  classname= "blog_a" href="#">Learn More</a>
          
           <BsArrowRightShort className="blog_arrow3"/>
         </div>
         <div className="blog-card">
         <p className='blog_p2'>Blog|May22,2023</p>
-          <h2>Card 4 Title</h2>
-          <p className='blog_p1'>This is the content of Card 4.</p>
+          <h2>Unlocking the True Potential of Global Centers of Excellence
+</h2>
+          {/* <p className='blog_p1'>This is the content of Card 4.</p> */}
           <a  classname= "blog_a" href="#">Learn More</a>
           <BsArrowRightShort className="blog_arrow3"/>
         </div>

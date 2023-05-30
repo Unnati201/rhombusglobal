@@ -22,14 +22,14 @@ const menuData = [
           {
             id: 43,
             title: "Cloud Engineering and Platform",
-            path: "/blog",
+            path: "/cloudeng",
             newTab: false,
           },
 
           {
             id: 44,
             title: "Consulting and Advisory",
-            path: "/blog",
+            path: "/consulty",
             newTab: false,
           },
          
@@ -56,7 +56,7 @@ const menuData = [
           },
           {
             id: 43,
-            title: "Travel and Transportation and Hospitality",
+            title: "Travel , Transportation and Hospitality",
             path: "/travel&transportation",
             newTab: false,
           },
@@ -97,56 +97,17 @@ const menuData = [
       path: "/blog",
       newTab: false,
     },
+
     {
       id: 4,
       title: "About Us",
+      path: "/abouts",
       newTab: false,
-      submenu: [
-        {
-          id: 41,
-          title: "Aboutus",
-          path: "/abouts",
-          newTab: false,
-        },
-        {
-          id: 42,
-          title: "Our Approaches",
-          path: "/approach",
-          newTab: false,
-        },
-        {
-          id: 43,
-          title: "Meet our team",
-          path: "/meet_team",
-          newTab: false,
-        },
-        {
-          id: 44,
-          title: "Value and culture",
-          path: "/value",
-          newTab: false,
-        },
-        {
-          id: 45,
-          title: "Our Focus",
-          path: "/focus",
-          newTab: false,
-        },
-        {
-          id: 46,
-          title: "Quick Facts",
-          path: "/quicks_facts",
-          newTab: false,
-        },
-        {
-          id: 47,
-          title: "Our Vision",
-          path: "/vision",
-          newTab: false,
-        },
-        
-      ],
     },
-  ];
+
+
+    
+    
+  ]; 
   export default menuData;
   

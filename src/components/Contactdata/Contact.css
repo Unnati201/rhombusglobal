@@ -2,10 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Ubuntu";
 }
 
 .contact_body {
-   min-height: 100vh; 
+   min-height: 80vh; 
   
   display: flex;
   justify-content: center;
@@ -15,7 +16,7 @@
 
 .contct_container {
   width: 100%;
-  height: 80vh;
+  height: 110vh;
   background: #222;
   color: #eee;
 }
@@ -24,13 +25,17 @@
   color: white;
   font-size: 42px;
   text-align: center;
-  margin-bottom: 10px;
-  margin-right: 13rem;
-  font-family: 'Mulish', sans-serif;
+  margin-bottom: 30px;
+  margin-right: 10rem;
+  font-family: 'Ubuntu';
   font-weight: 500;
   padding: 10px;
 }
 
+
+.cont_h2{
+  margin-top: 50px;
+}
 .contct_wrapper {
   width: 100%;
   display: grid;
@@ -112,7 +117,7 @@
   width: 170px;
   height: 50px;
   border-radius: 30px;
-  margin-left: 50px;
+  margin-left: 45px;
   gap: 30;
 }
 
@@ -161,10 +166,18 @@
 .contct_box.checkbox .check_label {
   font-size: 16px;
   color: #eee;
-  margin-left: 30px;
-  margin-top: -6px;
+  /* margin-left: 30px; */
+  /* margin-top: -6px; */
+  
+  display: flex;
+  align-items: center;
   
  
+}
+
+.contct_box.checkbox .check_label span {
+  margin-left: -30px;
+  
 }
 
 .terms_and_conditions {
@@ -174,8 +187,30 @@
   
 }
 
+
+
 .subscribe_text {
   font-size: 16px;
   color: #eee;
+ 
+  
+}
 
+.check-desg{
+ margin-left: 47px;
+ padding: 30px;
+ margin-top: -40px;
+ font-size: 22px;
+ line-height:2.2rem;
+ color: #fff;
+ font-weight: 400;
+}
+
+.box_size_contct{
+  height: 20px;
+  width:30px;
+}
+
+.recaptcha_sty{
+  margin-top: -20px;
 }

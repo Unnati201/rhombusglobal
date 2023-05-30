@@ -17,7 +17,7 @@
   .image_aboutus_ourteam{
     
     width:100%;
-    height:570px;
+    height:600px;
      background-size: cover;
      object-fit: cover;
   } 
@@ -25,10 +25,10 @@
   .aboutUs_story-overlay_ourteam {
      position: absolute; 
      /* top: 102rem;  */
-     bottom:-94.4rem;
+     bottom:-101rem;
     /* left: 0; */
     width: 100%;
-    height: 575px;
+    height: 610px;
     background-color: rgba(9, 11, 26, 0.9);
   }
   

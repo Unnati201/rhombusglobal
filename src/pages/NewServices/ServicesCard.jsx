@@ -13,10 +13,16 @@ const ServicesCard = () => {
    </div>
 <div className='serv_contentBox'>
     <div className='servc_content'>
-        <h3 className='servc_h3'>Data Engineering and Solutions</h3>
-        <p className='servc_p'>Data Integrity Solutions. <br/>
-        Master Data Management <br/>
-        Analytics and AI</p>
+        <h3 className='servc_h3'>Data Engineering and Solutions
+        
+   </h3>
+      {/* <span className="arrow-symbol">&#10148;</span> */}
+   
+        <p className='servc_p'>
+        <li className="list-item"> Data Integrity Solutions</li> 
+
+        <li className="list-item">Master Data Management </li>
+        <li className="list-item"> Analytics and AI</li></p>
 
         <button className="learn-more-btns-ser">Learn More</button>
          
@@ -33,10 +39,12 @@ const ServicesCard = () => {
    </div>
 <div className='serv_contentBox'>
     <div className='servc_content'>
-        <h3 className='servc_h3'>Digital Engineering and Transformation</h3><br/>
-        <p className='servc_p'>Customer Experience Management <br/>
-        Product Design and Engineering <br/>
-        App Development and Support</p>
+        <h3 className='servc_h3'>Digital Engineering and Transformation</h3>
+        <p className='servc_p'>
+        <li className="list-item">Customer Experience Management </li>
+        <li className="list-item"> Product Design and Engineering </li>
+        <li className="list-item"> App Development and Support</li>
+        </p>
         <button className="learn-more-btns-ser">Learn More</button>
          
           <BsArrowRightShort className="ind_serv_arrow"/>
@@ -55,9 +63,10 @@ const ServicesCard = () => {
 <div className='serv_contentBox'>
     <div className='servc_content'>
         <h3 className='servc_h3'>Cloud Engineering and Platform</h3>
-        <p className='servc_p'>Cloud Engineering and Migration<br/>
-        Cloud Native Development<br/>
-        Managed hosting and support services
+        <p className='servc_p'>
+        <li className="list-item">Cloud Engineering and Migration</li>
+        <li className="list-item">Cloud Native Development</li>
+        <li className="list-item">Managed hosting and support services</li>
         </p>
         <button className="learn-more-btns-ser">Learn More</button>
          
@@ -76,9 +85,11 @@ const ServicesCard = () => {
 <div className='serv_contentBox'>
     <div className='servc_content'>
         <h3 className='servc_h3'>Advisory &Consulting </h3>
-        <p className='servc_p'>Business Consulting <br/>
-        Technology Consulting <br/>
-        Cloud and Network Consulting</p>
+        <p className='servc_p'>
+        <li className="list-item">Business Consulting</li> 
+        <li className="list-item">Technology Consulting </li>
+        <li className="list-item">
+        Cloud and Network Consulting</li></p>
         <button className="learn-more-btns-ser">Learn More</button>
          
           <BsArrowRightShort className="ind_serv_arrow"/>

@@ -41,15 +41,15 @@ const Aboutus = () => {
            <br/><br/><br/><br/>
 
             <h1 className='text-3xl font-bold mb-6 mx-w-xs'>Our Focus</h1>
-            <p className='mb-12 max-w-2xl'>
+            <p className='mb-12 max-w-2xl ml-24'>
               At Rhombus global services, delivered data, digital, and cloud 
-               Technology and transformation. and services from strategy to implementation
+               Technology <br/> and transformation. and services from strategy to implementation
               <br />
               <br />
-              We enable innovative solutions across a variety of industry segments 
-              and cater to organizations of various sizes.
-              We believe in long-term partnerships and our services 
-              are designed for the value and specific needs of our clients
+              We enable innovative solutions across a variety of industry segments <br/>
+              and cater to organizations  of various sizes.
+              We believe in long-term <br/> partnerships and our services 
+              are designed for the value and specific needs of <br/> our clients
             </p>
             <button className="bg-[#007bff] hover:bg-blue-700 text-white font-bold py-2 px-8 ml-20 rounded-3xl">
               Learn More

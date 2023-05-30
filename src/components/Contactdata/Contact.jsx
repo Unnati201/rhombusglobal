@@ -57,7 +57,8 @@ const Contact = () => {
               <label htmlFor='companyUrl'>Company URL*</label>
             </div>
           </div>
-
+         
+         
           
           <div className='contct_wrapper'>
             <div className='contct_box'>
@@ -67,34 +68,16 @@ const Contact = () => {
           </div>
 
 
-          <div className='contct_wrapper'>
-  <div className='contct_box checkbox'>
-    <input
-      type='checkbox'
-      id='termsAndConditions'
-      checked={termsChecked}
-      onChange={handleTermsCheckboxChange}
-    />
-    <label className='check_label' htmlFor='termsAndConditions'>I agree to the privacy policy <span className='terms_and_conditions'>Terms and Conditions</span></label>
+<div className='check-desg'>
+          <input className='box_size_contct'  type="checkbox" id="term&cond" name="term" value="terms"/>
+  <label for="terms&cond"> I agree to the privacy policy</label><br/>
+  <input className='box_size_contct' type="checkbox" id="subscribe" name="subscribe" value="subs"/>
+  <label for="subscribe"> Subscribe me to Persistence's latest thought leadership, blogs and updates</label>
   </div>
-</div>
-
-<div className='contct_wrapper'>
-  <div className='contct_box checkbox'>
-    <input
-      type='checkbox'
-      id='subscribe'
-      checked={subscribeChecked}
-      onChange={handleSubscribeCheckboxChange}
-    />
-    <label  className='check_label'  htmlFor='subscribe'><span className='subscribe_text'>Subscribe me to RGS latest thought leadership, blogs and updates.</span></label>
-  </div>
-</div>
-
 
            <div className='contct_wrapper'>
             <div className='contct_box'>
-              <ReCAPTCHA
+              <ReCAPTCHA className='recaptcha_sty'
                 sitekey="6LeXjUkmAAAAAKIKoNhFhtb7kjCKFiqWkXuew3Fz"
                 // server site key
                 // 6LeXjUkmAAAAABEXrc7-LeS4gUwsFffFt3alwfSu
@@ -112,7 +95,7 @@ const Contact = () => {
 Submit
 </button>
 
-
+     &nbsp; OR
         <button className='contact-submit-btn contact_submit1'>Book a Call</button>
       </div>
     </form>

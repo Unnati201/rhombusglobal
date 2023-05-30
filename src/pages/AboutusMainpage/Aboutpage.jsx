@@ -65,14 +65,35 @@ We believe in long-term partnerships, and our services are designed for value an
 
 
       <div className="ourapp_card-row">
-        <div className="ourapp_card">Card 1</div>
-        <div className="ourapp_card">Card 2</div>
-        <div className="ourapp_card">Card 3</div>
+        <div className="ourapp_card">
+          <p className='ourapprch_p'>Agile and Iterative Approach</p>
+          </div>
+        <div className="ourapp_card">
+        <p className='ourapprch_p'>Quality that Delights</p>
+        </div>
+
+        <div className="ourapp_card">
+        <p className='ourapprch_p'>Inclusion,Diversity and Respect</p>
+        
+        </div>
       </div>
+
+
       <div className="ourapp_card-row">
-        <div className="ourapp_card">Card 4</div>
-        <div className="ourapp_card">Card 5</div>
-        <div className="ourapp_card">Card 6</div>
+        <div className="ourapp_card">
+        <p className='ourapprch_p'>Customer Centricity and Empathy</p>
+        
+        </div>
+
+        <div className="ourapp_card">
+        <p className='ourapprch_p'>Sustained Innovation and Value</p>
+
+        </div>
+
+        <div className="ourapp_card">
+        <p className='ourapprch_p'>Ownership,Agility and Flexibility</p>
+
+        </div>
       </div>
 
 

@@ -30,8 +30,8 @@
   }
   
   .solvgrd_card {
-    width: 350px;
-    height:370px;
+    width: 330px;
+    height:320px;
     margin:-10px;
  
      /* margin: 20px; */
@@ -51,7 +51,7 @@ background-color: aqua;
   font-size: 23px;
   margin-bottom: 42px;
   font-weight: 400;
-  margin: 50px;
+  margin: 30px;
   color: #fff;
 }
 
@@ -64,23 +64,24 @@ background-color: aqua;
   }
   
   .solvgrd_card .solvgrad_h3 {
-    font-size: 22px;
+    font-size: 23px;
     font-family: 500;
     
     font-family: 'Ubuntu';
     /* margin-bottom: 30px; */
-    font-family: "Mulish",sans-serif;
+    font-family: "Ubuntu";
     color: #fff;
-    margin-right: 80px;
+    margin-right: 8px;
    
   }
   
   .solvgrd_card p {
-    font-size: 17px;
-    color:#d7d5d5;
+    font-size: 18px;
+    color: #fff;
+    /* color:#d7d5d5; */
     margin-top: 10px;
     margin-left: 11px;
-    word-break: break-all;
+    /* word-break: break-all; */
     /* padding: 10px; */
 
   }
@@ -89,16 +90,17 @@ background-color: aqua;
    .solvgrd_img{
     padding:30px;
     text-align: center;
-    margin-top: 20px;
-    
+    margin-top: 10px;
+    margin-left: 80px;
     width:130px;
   }
 
   .solvgrd_imgs_cloud{
     padding:30px;
     text-align: center;
-    margin-top: 20px;
-    
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 80px;
     width:135px;
   }
 

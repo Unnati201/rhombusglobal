@@ -9,31 +9,31 @@ const Solvinggradient = () => {
       <div className="solvgrd-card-container">
         <div className="solvgrd_card">
           <div className="card-icon">
-           <img className='solvgrd_img' src="asserts/serv5.png" alt=""></img>
+            <img className='solvgrd_img' src="asserts/serv5.png" alt=""></img>
           </div>
           <h3 className='solvgrad_h3'>Eliminate Blind Spots</h3>
-          <p className='solvgrad_p'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi architecto minus et odit minima exercitationem amet? Eligendi ipsa quasi mollitia, tenetur vitae quae </p>
+          <p className='solvgrad_p'>Discover new opportunities for your data, operations, and business </p>
         </div>
         <div className="solvgrd_card">
           <div className="card-icon">
-          <img className='solvgrd_img' src="asserts/serv1.png" alt=""></img>
+            <img className='solvgrd_img' src="asserts/serv1.png" alt=""></img>
           </div>
-          <h3 className='solvgrad_h3'> Digital Transformation</h3>
-          <p className='solvgrad_p'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi architecto minus et odit minima exercitationem amet? Eligendi ipsa quasi mollitia, tenetur vitae quae </p>
+          <h3 className='solvgrad_h3'>Digital Transformation</h3>
+          <p className='solvgrad_p'>Data, Digital and Cloud to achieve scale, agility, and security</p>
         </div>
         <div className="solvgrd_card">
           <div className="card-icon">
-          <img className='solvgrd_img' src="asserts/serv2.png" alt=""></img>
+            <img className='solvgrd_img' src="asserts/serv2.png" alt=""></img>
           </div>
           <h3 className='solvgrad_h3'>Accelerate Decisions</h3>
-          <p className='solvgrad_p'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi architecto minus et odit minima exercitationem amet? Eligendi ipsa quasi mollitia, tenetur vitae quae r</p>
+          <p className='solvgrad_p'>AI and ML to gain actionable business insights</p>
         </div>
         <div className="solvgrd_card">
           <div className="card-icon">
-          <img className='solvgrd_imgs_cloud' src="asserts/serv3.png" alt=""></img>
+            <img className='solvgrd_imgs_cloud' src="asserts/serv3.png" alt=""></img>
           </div>
           <h3 className='solvgrad_h3'>Drive Growth and ROI</h3>
-          <p className='solvgrad_p'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi architecto minus et odit minima exercitationem amet? Eligendi ipsa quasi mollitia, tenetur vitae quae r</p>
+          <p className='solvgrad_p'>Automation, Optimization, Re-engineering to increase growth and reduce cost</p>
         </div>
       </div>
       <p className='solvgrad_p_last_drive'>We help CXO's and enterprises solve their most complex technology and business challenges. Our expertise is in our ability to help you sustain, grow and stay ahead of the curve </p>

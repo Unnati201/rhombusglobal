@@ -6,9 +6,9 @@ import { Icons } from "./Menus";
 const Footer = () => {
   return (
    
-    <footer className="bg-[#151010] text-white -mt-20">
+    <footer className="bg-[#151010] text-white -mt-30">
       <div className="md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#151010] ">
-       <img className= "h-26 w-45 text-center mx-auto mr-150 " src="asserts/rgslogonew.png" alt="rgs-tech"></img>
+       <img className= "h-26 w-45 text-center mx-auto  " src="asserts/rgslogonew.png" alt="rgs-tech"></img>
      
       </div>
 

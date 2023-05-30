@@ -30,7 +30,7 @@
   .healthcare-content {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 40%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
@@ -76,6 +76,7 @@
     border: none;
     border-radius: 30px;
     cursor: pointer;
+    margin-left: 4rem;
   }
 
 
@@ -311,4 +312,16 @@
 
     .bank_detail_all_contct{
       margin-top: -15rem;
+    }
+
+    /* overlay our approch */
+
+    .aboutUs_story-overlay_ourapproach_healthcare{
+       
+      position: absolute; 
+      top: 108rem; 
+     /* left: 0; */
+     width: 100%;
+     height: 480px;
+     background-color: rgba(9, 11, 26, 0.9);
     }
