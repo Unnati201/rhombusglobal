@@ -41,16 +41,17 @@ const Header = () => {
   };
 
   return (
-    <>
+    <div>
       <header
-        className={`header top-0 font-ubuntu left-0 z-40 flex w-full h-30 items-center bg-transparent ${
-          sticky
-            ? "!fixed !z-[9999] !bg-black !bg-opacity-80 shadow-sticky backdrop-blur-sm !transition dark:!bg-primary dark:!bg-opacity-20"
-            : "absolute"
-        }`}
-      >
+  className={`header top-0 font-ubuntu left-0 z-40 flex w-full h-30 items-center ${
+    sticky
+      ? '!fixed !z-[9999] bg-black bg-opacity-80 shadow-sticky backdrop-blur-sm transition dark:bg-primary dark:bg-opacity-20'
+      : 'absolute'
+  }`}
+>
+
         <div className="container">
-          <div className="relative -mx-7 flex items-center justify-between  font-ubuntu  ">
+          <div className="relative -mx-7 flex items-center justify-between   ">
             <div className="w-60 max-w-full px-4  xl:mr-16">
               <Link
                 to="/"
@@ -60,20 +61,20 @@ const Header = () => {
               >
 
 
-{/* <img  className="w-25 h-16 mx-10  -my-6  dark:hidden " 
+{/* <img  className="w-25 h-16 mx-10  -my-6  dark:hidden "
                   src={img3}
                   alt="logo"
-                  
+                 
                  
                 /> */}
                
                    <img  className="w-30 h-18 mx-20 -my-5 dark:hidden "
                   src={img1}
                   alt="logo"
-                  
+                 
                  
                 />
-            
+           
                 <img
                   src={img2}
                   alt="logo"
@@ -115,13 +116,13 @@ const Header = () => {
                       : "invisible top-[120%] opacity-0"
                   }`}
                 >
-                  <ul className="block lg:flex lg:space-x-12 my-3 ml-10">
+                  <ul className="block lg:flex lg:space-x-12 my-3">
                     {menuData.map((menuItem, index) => (
                       <li key={menuItem.id} className="group relative">
                         {menuItem.path ? (
                           <Link
                             to={menuItem.path}
-                            className={`flex py-2 text-base text-white group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0 `}
+                            className={`flex py-2 text-base text-white group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
                           >
                             {menuItem.title}
                           </Link>
@@ -132,7 +133,7 @@ const Header = () => {
                               className="flex cursor-pointer items-center  justify-between py-2 text-base text-white group-hover:opacity-70 dark:text-white lg:mr-0 lg:inline-flex lg:py-6 lg:px-0 font-mulish"
                             >
                               {menuItem.title}
-                              <span >
+                              <span className="pl-3">
                                 <svg width="15" height="14" viewBox="0 0 15 14">
                                   <path
                                     d="M7.81602 9.97495C7.68477 9.97495 7.57539 9.9312 7.46602 9.8437L2.43477 4.89995C2.23789 4.70308 2.23789 4.39683 2.43477 4.19995C2.63164 4.00308 2.93789 4.00308 3.13477 4.19995L7.81602 8.77183L12.4973 4.1562C12.6941 3.95933 13.0004 3.95933 13.1973 4.1562C13.3941 4.35308 13.3941 4.65933 13.1973 4.8562L8.16601 9.79995C8.05664 9.90933 7.94727 9.97495 7.81602 9.97495Z"
@@ -150,7 +151,7 @@ const Header = () => {
                                 <Link
                                   to={submenuItem.path}
                                   key={submenuItem.id}
-                                  className="block rounded py-2.5  text-sm text-dark hover:opacity-70 font-dark font-ubuntu dark:text-white lg:px-3"
+                                  className="block rounded py-2.5  text-xs text-dark hover:opacity-70 dark:text-white lg:px-3"
                                 >
                                   {submenuItem.title}
                                 </Link>
@@ -170,11 +171,11 @@ const Header = () => {
                 >
                   <img className="h-7 w-7  " src="asserts/search.png" alt="" />
                 </Link> 
-                
+               
                 {/* <h className="h-12 w-0.6  bg-white text-white">|</h> */}
-                
-        
-                 {/* <Link 
+               
+       
+                 {/* <Link
                   href="/contact"
                   className="ease-in-up hidden rounded-md bg-primary py-6 px-3 text-base font-bold text-white transition duration-300 hover:bg-opacity-90 hover:shadow-contact md:block md:px-6 lg:px-6 xl:px-7  bg-[#00ffff]"
                 >  
@@ -193,7 +194,7 @@ const Header = () => {
           </div>
         </div>
       </header>
-    </>
+    </div>
   );
 };
 
