@@ -13,10 +13,10 @@ const Aboutus = () => {
       exit={{ opacity: 0, y: '100%' }}
       className='section'
     >
-      <div className='about-data-container mx-4 sm:mx-auto'
+      <div className='about-data-container  sm:mx-auto'
       >
         {/* text & img wrapper */}
-        <div className='flex flex-col lg:flex-row h-full items-center justify-center gap-x-24 text-center lg:text-left lg:pt-22 mx-30'
+        <div className='flex flex-col lg:flex-row h-full items-center justify-center gap-x-24 text-center lg:text-left lg:pt-22  mx-30'
         >
           <div className='flex-1 max-h-55 lg:max-h-max order-4 lg:order-none overflow-hidden absolute right-0 mt-20 mr-20' // Added mr-4 class for right margin
           >

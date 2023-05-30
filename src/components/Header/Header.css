@@ -1,28 +1,3 @@
-.container {
-    /* Update the margin-right value */
-    margin-right: 20px;
-  }
- 
-  /* Adjust the color and opacity of the navbar text */
-  .navbar a {
-    color: #fff;
-    opacity: 0.9;
-  }
- 
-  /* For dark mode */
-  .navbar a.dark {
-    color: #fff;
-    opacity: 0.9;
-  }
- 
-  /* Update the background color or add a background overlay */
-  .navbar {
-    background-color: #f8f8f8;
-  }
- 
-  /* For dark mode */
-  .navbar.dark {
-    background-color: #222;
-    /* Add a semi-transparent overlay for better contrast */
-    background-color: rgba(0, 0, 0, 0.8);
-  }
+.container{
+    margin-right: 100px;
+}

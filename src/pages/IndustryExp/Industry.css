@@ -19,7 +19,7 @@
     display: grid;
     grid-template-columns: 26rem 26rem 26rem;
     grid-template-rows: 15rem 15rem 15rem;
-    padding-left: 5rem;
+    /* padding-left: 5rem; */
     margin-top: 5rem;
     
     
