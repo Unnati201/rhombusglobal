@@ -4,6 +4,7 @@
   /* margin-left: 8rem; */
   gap: 2rem;
   margin-top: 60px;
+  text-align: center;
 }
 
 .blog_body {
@@ -52,7 +53,7 @@
 
 .blog-card h2 {
   font-size: 23px;
-  /* padding: 20px; */
+   padding: 20px; 
 
   margin-top: -10px;
   font-family: 'Mulish';
@@ -117,6 +118,7 @@
   font-weight: 500;
   justify-content: center;
   text-align: center;
+ margin-left: -10rem;
   margin-top: 20px;
   /* margin-left: 38rem; */
   
